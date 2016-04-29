@@ -31,6 +31,16 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[5]` | 451-550 | Language model (Dirichlet smoothing) | WIG | 0.376| |
 `[5]` | 451-550 | Language model (Dirichlet smoothing) | WIG+MaxVARTF.IDF | 0.431| |
 `[7]` | 451-550 | Language model (Dirichlet smoothing) | Delta(QR1)/Delta(QG) | | |0.260
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxIDF | 0.300 | |0.280
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | Simplified Clarity | 0.130 | |0.170
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxSCQ | 0.410 | |0.340
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.420 | |0.330
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.406 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | NQC | 0.405 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(NQC) | 0.435 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.563 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | LTRoq | 0.346 | |
+
 
 ## GOV2
 
@@ -70,6 +80,15 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity | 0.206 | |0.171
 `[8]` | 701-750 | Language model (Dirichlet smoothing) | Robustness | 0.301 | |0.208
 `[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity+Robustness | 0.362 | |0.252
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxIDF | 0.350 | |0.250
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | Simplified Clarity | 0.260 | |0.200
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxSCQ | 0.420 | |0.280
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxVAR | 0.430 | |0.290
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.384 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | NQC | 0.336 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(NQC) | 0.417 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.537 | |
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | LTRoq | 0.570 | |
 
 
 ## ClueWeb09
@@ -94,6 +113,11 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[5]` |  51-100 (cat B) | Language model (Dirichlet smoothing) | WIG | 0.415| |
 `[5]` |  51-100 (cat B) | Language model (Dirichlet smoothing) | WIG+MaxVARTF.IDF | 0.333| |
 `[5]` |  1-50 (cat B) | Language model (Dirichlet smoothing) | WIG+e-dispersion | 0.471| |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | MaxVAR | 0.358 | |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | NQC | 0.234 | |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | UEF(NQC) | 0.272 | |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.265 | |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | LTRoq | 0.512 | |
 
 
 
@@ -114,3 +138,7 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 [7] Collins-Thompson, Kevyn, and Paul N. Bennett. "Predicting query performance via classification." Advances in Information Retrieval. Springer Berlin Heidelberg, 2010. 140-152.
 
 [8] Zhou, Yun, and W. Bruce Croft. "Measuring ranked list robustness for query performance prediction." Knowledge and Information Systems 16.2 (2008): 155-171.
+
+[9] Hauff, Claudia, Djoerd Hiemstra, and Franciska de Jong. "A survey of pre-retrieval query performance predictors." Proceedings of the 17th ACM conference on Information and knowledge management. ACM, 2008.
+
+[10] Raiber, Fiana, and Oren Kurland. "Query-performance prediction: Setting the expectations straight." Proceedings of the 37th international ACM SIGIR conference on Research & development in information retrieval. ACM, 2014.
