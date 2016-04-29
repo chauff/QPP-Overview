@@ -1,6 +1,9 @@
 # QPP-Overview
 This page provides an overview of pre/post-retrieval QPP results on common corpora, 
-retrieval models and evaluation metrics. The page is ordered by corpus. It is not claimed to be complete.
+retrieval models and evaluation metrics. The page is ordered by corpus. The list is by no means complete and will
+be updated from time to time.
+
+It is limited to correlation-coefficient based results reported on WT10g, GOV2 and ClueWeb09.
 
 
 ## WT10g
