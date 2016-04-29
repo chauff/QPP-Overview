@@ -1,7 +1,7 @@
 # QPP-Overview
 This page provides an overview of pre/post-retrieval QPP results on common corpora, 
-retrieval models and evaluation metrics. The page is ordered by corpus and includes
-publications between 2009 and 2016 (earlier QPP works are covered in my PhD thesis).
+retrieval models and evaluation metrics. The page is ordered by corpus. It is not claimed to be complete.
+
 
 ## WT10g
 
@@ -69,6 +69,8 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 
 ## ClueWeb09
 
+Reference | Queries | Retrieval model | Predictor | Linear correlation coefficient | Spearman's Rho | Kendall's Tau
+--- | --- | --- | --- | --- | --- | ---
 `[5]` |  1-50 (cat B) | Language model (Dirichlet smoothing) | Clarity | 0.105| |
 `[5]` |  1-50 (cat B) | Language model (Dirichlet smoothing) | Clarity+MaxVARTF.IDF | 0.555| |
 `[5]` |  1-50 (cat B) | Language model (Dirichlet smoothing) | Clarity+e-dispersion | 0.353| |
