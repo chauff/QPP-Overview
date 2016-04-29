@@ -3,19 +3,20 @@ This page provides an overview of pre/post-retrieval QPP results on common corpo
 retrieval models and evaluation metrics. The page is ordered by corpus. The list is by no means complete and will
 be updated from time to time.
 
-It is limited to correlation-coefficient based results reported on WT10g, GOV2 and ClueWeb09.
+It is limited to correlation-coefficient based results reported on WT10g, GOV2 and ClueWeb09. Predictors in bold are
+pre-retrieval predictors.
 
 
 ## WT10g
 
 Reference | Queries | Retrieval model | Predictor | Linear correlation coefficient | Spearman's Rho | Kendall's Tau
 --- | --- | --- | --- | --- | --- | ---
-`[2]` | 451-500 | Language model (Dirichlet smoothing) | MaxIDF | 0.090| 0.302 |  0.227
-`[2]` | 451-500 | Language model (Dirichlet smoothing) | MaxSCQ | 0.447| 0.624 |  0.456
-`[2]` | 451-500 | Language model (Dirichlet smoothing) | MaxVAR | 0.354| 0.529 |  0.358
-`[2]` | 501-550 | Language model (Dirichlet smoothing) | MaxIDF | 0.507| 0.408 |  0.291
-`[2]` | 501-550 | Language model (Dirichlet smoothing) | MaxSCQ | 0.418| 0.378 |  0.274
-`[2]` | 501-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.538| 0.502 |  0.372
+`[2]` | 451-500 | Language model (Dirichlet smoothing) | **MaxIDF** | 0.090| 0.302 |  0.227
+`[2]` | 451-500 | Language model (Dirichlet smoothing) | **MaxSCQ** | 0.447| 0.624 |  0.456
+`[2]` | 451-500 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.354| 0.529 |  0.358
+`[2]` | 501-550 | Language model (Dirichlet smoothing) | **MaxIDF** | 0.507| 0.408 |  0.291
+`[2]` | 501-550 | Language model (Dirichlet smoothing) | **MaxSCQ** | 0.418| 0.378 |  0.274
+`[2]` | 501-550 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.538| 0.502 |  0.372
 `[3]` | 451-550 | BM25 | NCQ | | 0.342 |
 `[3]` | 451-550 | BM25 | Query Clarity | | 0.358 |
 `[3]` | 451-550 | BM25 | Sigma-50% | | 0.447 |
@@ -34,11 +35,11 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[5]` | 451-550 | Language model (Dirichlet smoothing) | WIG | 0.376| |
 `[5]` | 451-550 | Language model (Dirichlet smoothing) | WIG+MaxVARTF.IDF | 0.431| |
 `[7]` | 451-550 | Language model (Dirichlet smoothing) | Delta(QR1)/Delta(QG) | | |0.260
-`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxIDF | 0.300 | |0.280
-`[9]` | 451-550 | Language model (Dirichlet smoothing) | Simplified Clarity | 0.130 | |0.170
-`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxSCQ | 0.410 | |0.340
-`[9]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.420 | |0.330
-`[10]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.406 | |
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | **MaxIDF** | 0.300 | |0.280
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | **Simplified Clarity** | 0.130 | |0.170
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | **MaxSCQ** | 0.410 | |0.340
+`[9]` | 451-550 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.420 | |0.330
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.406 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | NQC | 0.405 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(NQC) | 0.435 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.563 | |
@@ -49,13 +50,13 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 
 Reference | Queries | Retrieval model | Predictor | Linear correlation coefficient | Spearman's Rho | Kendall's Tau
 --- | --- | --- | --- | --- | --- | ---
-`[1]` | 701-800 | Markov random field | Query Clarity | 0.333 | |
+`[1]` | 701-800 | Markov random field | Clarity | 0.333 | |
 `[1]` | 701-800 | Markov random field | Query Feedback | 0.480 | |
 `[1]` | 701-800 | Markov random field | Weighted Information Gain | 0.574 | |
 `[1]` | 701-800 | Markov random field | Robustness | 0.317 | |
-`[2]` | 701-850 | Language model (Dirichlet smoothing) | MaxIDF | 0.297| 0.326 |  0.219
-`[2]` | 701-850 | Language model (Dirichlet smoothing) | MaxSCQ | 0.357| 0.347 |  0.231
-`[2]` | 701-850 | Language model (Dirichlet smoothing) | MaxVAR | 0.359| 0.369 |  0.247
+`[2]` | 701-850 | Language model (Dirichlet smoothing) | **MaxIDF** | 0.297| 0.326 |  0.219
+`[2]` | 701-850 | Language model (Dirichlet smoothing) | **MaxSCQ** | 0.357| 0.347 |  0.231
+`[2]` | 701-850 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.359| 0.369 |  0.247
 `[4]` | 701-850 | Language model (Dirichlet smoothing) | Clarity | 0.433| |
 `[4]` | 701-850 | Language model (Dirichlet smoothing) | UEF(Clarity) | 0.462| |
 `[4]` | 701-850 | Language model (Dirichlet smoothing) | WIG | 0.479| |
@@ -70,24 +71,24 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[5]` | 701-850 | Language model (Dirichlet smoothing) | QF+MaxVARTF.IDF | 0.574| |
 `[5]` | 701-850 | Language model (Dirichlet smoothing) | WIG | 0.486| |
 `[5]` | 701-850 | Language model (Dirichlet smoothing) | WIG+MaxVARTF.IDF | 0.465| |
-`[6]` | 701-750 | Language model | Query Clarity | | |0.139
-`[6]` | 751-800 | Language model  | Query Clarity | | |0.171
+`[6]` | 701-750 | Language model | Clarity | | |0.139
+`[6]` | 751-800 | Language model  | Clarity | | |0.171
 `[6]` | 701-750 | Language model  | Robustness | | |0.150
 `[6]` | 751-800 | Language model  | Robustness | | |0.208
 `[6]` | 701-750 | Language model  | Autocorrelation | | |0.454
 `[6]` | 751-800 | Language model  | Autocorrelation | | |0.383
 `[7]` | 701-850 | Language model (Dirichlet smoothing) | Delta(R2G)/Delta(R1G) | | |0.204
-`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity | 0.305 | |0.134
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Clarity | 0.305 | |0.134
 `[8]` | 701-750 | Language model (Dirichlet smoothing) | Robustness | 0.341 | |0.213
-`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity+Robustness | 0.374 | |0.226
-`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity | 0.206 | |0.171
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Clarity+Robustness | 0.374 | |0.226
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Clarity | 0.206 | |0.171
 `[8]` | 701-750 | Language model (Dirichlet smoothing) | Robustness | 0.301 | |0.208
-`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity+Robustness | 0.362 | |0.252
-`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxIDF | 0.350 | |0.250
-`[9]` | 701-850 | Language model (Dirichlet smoothing) | Simplified Clarity | 0.260 | |0.200
-`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxSCQ | 0.420 | |0.280
-`[9]` | 701-850 | Language model (Dirichlet smoothing) | MaxVAR | 0.430 | |0.290
-`[10]` | 451-550 | Language model (Dirichlet smoothing) | MaxVAR | 0.384 | |
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Clarity+Robustness | 0.362 | |0.252
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | **MaxIDF** | 0.350 | |0.250
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | **Simplified Clarity** | 0.260 | |0.200
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | **MaxSCQ** | 0.420 | |0.280
+`[9]` | 701-850 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.430 | |0.290
+`[10]` | 451-550 | Language model (Dirichlet smoothing) | **MaxVAR** | 0.384 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | NQC | 0.336 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(NQC) | 0.417 | |
 `[10]` | 451-550 | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.537 | |
@@ -116,7 +117,7 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[5]` |  51-100 (cat B) | Language model (Dirichlet smoothing) | WIG | 0.415| |
 `[5]` |  51-100 (cat B) | Language model (Dirichlet smoothing) | WIG+MaxVARTF.IDF | 0.333| |
 `[5]` |  1-50 (cat B) | Language model (Dirichlet smoothing) | WIG+e-dispersion | 0.471| |
-`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | MaxVAR | 0.358 | |
+`[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | **MaxVAR** | 0.358 | |
 `[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | NQC | 0.234 | |
 `[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | UEF(NQC) | 0.272 | |
 `[10]` | 1-200 (cat B) | Language model (Dirichlet smoothing) | UEF(Improved Clarity) | 0.265 | |
