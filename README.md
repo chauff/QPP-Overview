@@ -64,7 +64,12 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 `[6]` | 701-750 | Language model  | Autocorrelation | | |0.454
 `[6]` | 751-800 | Language model  | Autocorrelation | | |0.383
 `[7]` | 701-850 | Language model (Dirichlet smoothing) | Delta(R2G)/Delta(R1G) | | |0.204
-
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity | 0.305 | |0.134
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Robustness | 0.341 | |0.213
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity+Robustness | 0.374 | |0.226
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity | 0.206 | |0.171
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Robustness | 0.301 | |0.208
+`[8]` | 701-750 | Language model (Dirichlet smoothing) | Query Clarity+Robustness | 0.362 | |0.252
 
 
 ## ClueWeb09
@@ -107,3 +112,5 @@ Reference | Queries | Retrieval model | Predictor | Linear correlation coefficie
 [6] Diaz, Fernando. "Performance prediction using spatial autocorrelation." Proceedings of the 30th annual international ACM SIGIR conference on Research and development in information retrieval. ACM, 2007.
 
 [7] Collins-Thompson, Kevyn, and Paul N. Bennett. "Predicting query performance via classification." Advances in Information Retrieval. Springer Berlin Heidelberg, 2010. 140-152.
+
+[8] Zhou, Yun, and W. Bruce Croft. "Measuring ranked list robustness for query performance prediction." Knowledge and Information Systems 16.2 (2008): 155-171.
